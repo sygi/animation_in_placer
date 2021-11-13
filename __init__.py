@@ -9,9 +9,9 @@ bl_info = {
 
 
 class AnimationInPlacer(bpy.types.Operator):
-    """InPlacer"""
+    """AnimationInPlacer"""
     bl_idname = "object.animation_in_placer"
-    bl_label = "Make in place"
+    bl_label = "Make animation in place"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
