@@ -69,7 +69,7 @@ def register():
 
 def unregister():
     bpy.utils.unregister_class(AnimationInPlacer)
-    bpy.utils.register_class(AnimationInPlacerSidePanel)
+    bpy.utils.unregister_class(AnimationInPlacerSidePanel)
 
 
 if __name__ == "__main__":
